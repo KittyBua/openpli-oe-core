@@ -2,7 +2,7 @@
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
-SRC_URI = "git://github.com/E2OpenPlugins/e2openplugin-openwebif.git;protocol=https"
+SRC_URI = "git://github.com/KittyBua/e2openplugin-OpenWebif.git;protocol=https"
 
 PR ="2"
 
@@ -123,6 +123,7 @@ python do_cleanup () {
         ('ustym4kpro', 'ustym4kpro.png', 'uclan.png', 'uclan.html'),
         ('pulse4k', 'pulse4k.png', 'pulse4k.png', 'pulse4k.html'),
         ('pulse4kmini', 'pulse4kmini.png', 'pulse4k.png', 'pulse4k.html'),
+        ('breze4k', 'breze4k.png', 'breze4k.png', 'breze4k.html'),
     ]
 
     import os

@@ -74,6 +74,8 @@ S = "${WORKDIR}/git"
 DEPENDS = " \
 	${PYTHON_PN}-pyopenssl \
 	streamripper \
+	${PYTHON_PN}-icalendar \
+	${PYTHON_PN}-dateutil \
 	${PYTHON_PN}-mutagen \
 	${PYTHON_PN}-pyusb \
 	${PYTHON_PN}-requests \
@@ -85,7 +87,6 @@ DEPENDS = " \
 	libcddb \
 	dvdbackup \
 	libtirpc \
-	enigma2-plugin-extensions-lcd4linuxplugin \
 	"
 
 python populate_packages_prepend () {

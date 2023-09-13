@@ -97,6 +97,7 @@ OPTIONAL_PACKAGES += " \
 	minisatip \
 	mpd \
 	mtd-utils \
+	mtr \
 	mtools \
 	nano \
 	ndisc6 \
@@ -140,8 +141,10 @@ OPTIONAL_PACKAGES += " \
 	rtorrent \
 	sabnzbd \
 	satipclient \
+	satpi \
 	screen \
 	sed \
+	shairplay \
 	sshpass \
 	sshfs-fuse \
 	smartmontools \
@@ -173,13 +176,13 @@ OPTIONAL_ENIGMA2_PACKAGES = " \
 	enigma2-plugin-drivers-usbserial \
 	enigma2-plugin-extensions-automatic-fullbackup \
 	enigma2-plugin-extensions-blurayplayer \
-	enigma2-plugin-extensions-customsubservices \
 	enigma2-plugin-extensions-dlnabrowser \
 	enigma2-plugin-extensions-dlnaserver \
 	enigma2-plugin-extensions-e2iplayer-deps \
 	enigma2-plugin-extensions-enigmalight \
 	enigma2-plugin-extensions-epgimport \
 	enigma2-plugin-extensions-fontinfo \
+	enigma2-plugin-extensions-fritzcall \
 	enigma2-plugin-extensions-hdmitest \
 	enigma2-plugin-extensions-historyzapselector \
 	enigma2-plugin-extensions-infobarweather \
@@ -190,6 +193,7 @@ OPTIONAL_ENIGMA2_PACKAGES = " \
 	enigma2-plugin-extensions-openmultiboot \
 	enigma2-plugin-extensions-refreshbouquet \
 	enigma2-plugin-extensions-sdgradio \
+	enigma2-plugin-extensions-serienrecorder \
 	enigma2-plugin-extensions-subssupport \
 	enigma2-plugin-extensions-sundtekcontrolcenter \
 	enigma2-plugin-extensions-tmbd \
@@ -208,6 +212,7 @@ OPTIONAL_ENIGMA2_PACKAGES = " \
 	enigma2-plugin-systemplugins-radiotimesxmltvemulator \
 	enigma2-plugin-systemplugins-serviceapp \
 	enigma2-plugin-systemplugins-signalfinder \
+	enigma2-plugin-systemplugins-satipserver \
 	enigma2-plugin-systemplugins-terrestrialscan \
 	enigma2-plugin-systemplugins-quadpip \
 	enigma2-plugin-security-firewall \
